@@ -1,0 +1,938 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+@font-face {
+  font-family: "Stag Sans";
+  src: local("Stag Sans Light"), local("Stag-Sans-Light"),
+    url(../fonts/stagsans/StagSans-Light.woff2) format("woff2"),
+    url(../fonts/stagsans/StagSans-Light.woff) format("woff"),
+    url(../fonts/stagsans/StagSans-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.main-banner {
+  background-image: url(../images/banner_image.png);
+  width: auto;
+  height: 540px;
+  display: flex;
+}
+
+.logo-section {
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.main-logo {
+  width: 239px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.main-banner h1 {
+  color: #ffffff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  width: 622px;
+  text-align: left;
+}
+
+.main-banner h2 {
+  color: #ffffff;
+  font-family: "Stag Sans";
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  width: 599px;
+  text-align: left;
+}
+
+.appoinment-btn {
+  width: 186px;
+  height: 45px;
+  background-color: #dd5a6a;
+  border-radius: 3.2px;
+  color: #ffffff;
+  border: none;
+  margin-top: 25px;
+}
+
+.enqire-now-form {
+  background-color: #ffffff;
+  box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+  width: 350px;
+  height: 460px;
+  margin-top: 50px;
+}
+
+.enqire-now-form form {
+  font-family: "Stag Sans";
+}
+
+.enqire-now-form h3 {
+  width: 127px;
+  text-align: left;
+  color: #213559;
+  font-family: "Stag Sans";
+  font-weight: bolder;
+  font-size: 21px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Stag Sans";
+}
+
+#exampleFormControlTextarea1 {
+  height: 70px;
+}
+
+
+.custom-check{
+  display: flex;   
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  height: 70px;      
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
+}
+
+.custom-check input{
+  width: 18px;
+  height: 18px;
+  margin-left: 0;    
+}
+
+
+
+.custom-check label{
+margin-left: 25px;
+}
+
+.custom-check img{
+width: 50px;
+height: 50px;
+margin-right: 25px;
+}
+
+.submit-btn {
+  margin-left: 18px;
+  background-color: #dd5a6a;
+  width: 111px;
+  height: 44px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.page-width {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.bone-marrow-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  font-family: "Stag Sans";
+}
+
+.bone-marrow-img {
+  width: 422px;
+  height: 422px;
+}
+
+.bone-marrow-textarea {
+  margin-left: 30px;
+}
+
+.bone-marrow-radial {
+  background-color: #6078ea;
+  border-radius: 4px;
+  width: 586px;
+  height: 95px;
+}
+
+.bone-marrow-radial-text {
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Stag Sans";
+  font-size: 18px;
+  line-height: 26px;
+  width: 545px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.marrow-text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ************************************************************************************** */
+
+/* <!-- doctors section css starts here --> */
+
+.doctors-h3 {
+  margin-top: 25px;
+  color: #22b78e;
+  font-family: "Stag Sans";
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.doctors-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctors-section-left-section {
+  background-color: #f9f9ff;
+}
+
+.doctors-section-left {
+  border-radius: 4px;
+  width: 500px;
+}
+
+/* <!--  doctors section ends here  --> */
+
+.doctor-card-1 h4 {
+  color: #22b78e;
+  font-family: "Stag Sans";
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.doctor-card-1 img {
+  display: flex;
+  margin: 0 auto;
+  width: 256px;
+  height: 160px;
+}
+
+.doctors-specs {
+  margin: 0 auto;
+  text-align: center;
+  width: 420px;
+}
+
+.doctor-details {
+  color: #1d5aa6;
+  font-family: "Stag Sans";
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.doctor-details-edu {
+  color: #1d5aa6;
+  font-family: "Stag Sans";
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.doctor-data {
+  color: #000000;
+  font-family: "Stag Sans";
+  font-size: 15px;
+  line-height: 20px;
+  width: 423px;
+  text-align: center;
+}
+
+.doctor-btn {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.doctor-know-more {
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Stag Sans";
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  width: 129px;
+  height: 49px;
+  background-color: #17ead9;
+}
+
+hr {
+  width: 415px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.doctors-section-right {
+  width: 539px;
+  border-radius: 4px;
+}
+
+.doctors-section-right-section {
+  background-color: #f9f9ff;
+}
+
+/* ************************************************************************************** */
+/* <!-- Types of bone marrow starts here --> */
+
+.bone-marrow-question {
+  color: #22b78e;
+  font-family: "Stag Sans";
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+}
+
+/* <!-- Types of bone marrow ends here --> */
+/* ************************************************************************************** */
+
+.marrow-types {
+  margin-top: 50px;
+}
+
+.marrow-types ul {
+  list-style-type: none;
+}
+
+.marrow-types ul li {
+  color: #000000;
+  font-family: "Stag Sans";
+  font-size: 14px;
+  line-height: 39px;
+}
+
+.bone-marrow-types {
+  display: flex;
+}
+
+.bone-marrow-types img {
+  margin-right: 10px;
+}
+
+/* <!-- Types of bone marrow ends here --> */
+
+/* <!-- Warning sign of immune defeciency starts here --> */
+
+.warning-section {
+  margin-top: 50px;
+  font-family: "Stag Sans";
+}
+
+.warning-heading {
+  color: #22b78e;
+  font-family: "Stag Sans";
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.warning-parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.warning-parent::after {
+  content: "";
+  flex: auto;
+}
+
+.warning-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.card-1 {
+  background-color: #ffffff;
+  border: 1px solid #e5eaff;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  width: 255px;
+  height: 170px;
+  margin-bottom: 30px;
+}
+.card-1:last-child {
+  margin-left: 42px;
+}
+.card-1 img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.warning-card-text {
+  margin: 0 auto;
+  color: #000000;
+  font-family: "Stag Sans";
+  font-size: 14px;
+  line-height: 21px;
+  width: 198px;
+}
+
+.warning-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.warning-row-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* <!-- Warning sign of immune defeciency ends here --> */
+
+/* <!-- FAQ section starts here --> */
+
+.faq-main-section {
+  margin-top: 60px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.faq-question .btn-link.focus,
+.btn-link:focus {
+  box-shadow: none;
+}
+
+.faq-question p {
+  color: #1d5aa6;
+  font-family: "Stag Sans";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  width: 797px;
+  text-align: left;
+}
+
+.faq-answer {
+  display: flex;
+}
+
+.faq-answer-img {
+  margin-right: 25px;
+}
+
+/* accordion css */
+
+.btn-link:hover {
+  color: #fff;
+}
+
+.accordion-custom {
+  margin-top: 75px;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+#accordionExample .btn-link:hover {
+  text-decoration: none !important;
+}
+
+/* <!-- FAQ section ends here --> */
+
+.testimonial-main {
+}
+
+.testimonal-heading {
+  display: flex;
+  justify-content: space-between;
+  color: #22b78e;
+  font-family: "Stag Sans";
+  font-weight: bold;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+}
+
+.testimonial-main-text {
+  color: #000000;
+  font-family: "Stag Sans";
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+  margin-top: 25px;
+}
+
+/* for testimonial-slider */
+
+.testimonial-slider {
+  display: flex;
+}
+
+.testimonial-slide-1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  width: 500px;
+  height: 200px;
+}
+
+.testimonial-name-section-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonial-name-section {
+  display: flex;
+  margin-top: 25px;
+}
+
+.testimonial-name-section span {
+  margin-right: 25px;
+}
+
+.testimonial-dots {
+  margin-top: 25px;
+  background-color: #f9f9ff;
+}
+
+.testimonial-text {
+  margin: 0 auto;
+  color: #000000;
+  font-family: "Stag Sans";
+  font-size: 15px;
+  font-style: italic;
+  line-height: 21px;
+  width: 410px;
+}
+
+.appointment-btn-main {
+  display: flex;
+  margin-top: 25px;
+}
+
+.appointment-btn {
+  margin: 0 auto;
+  background-color: #004498;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17.14px;
+  line-height: 21px;
+  border-radius: 3.81px;
+  width: 221px;
+  height: 54px;
+}
+
+/* <!-- footer section starts here --> */
+
+.footer-container {
+  background-color: #272727;
+  height: 256px;
+  margin-top: 75px;
+}
+
+.social-media-icons-container ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 75px;
+  margin-right: 25px;
+}
+
+.social-media-icons-container ul li {
+  margin-right: 10px;
+}
+
+.footer-container hr {
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  opacity: 0.3701869419642857;
+  width: 1110px;
+  height: 2px;
+}
+
+.footer-right-text {
+  color: #ffffff;
+  font-family: "Stag Sans";
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* <!-- footer section ends here --> */
+
+/* back-to-top starts here */
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+@media screen and (max-width: 1040px) {
+  .bone-marrow-textarea{
+    margin-left: 10px;
+  }
+
+  .doctors-section-left{
+    width: 450px;
+  }
+
+  .doctors-section-right{
+    width: 450px;
+  }
+
+  .footer-container hr{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1129px){
+  .footer-container hr{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .footer-container hr{
+    width: auto;
+  }
+
+  .bone-marrow-textarea{
+    margin-left: 20px;
+  }
+
+  .doctors-section-left{
+    width: 475px;
+  }
+}
+
+@media screen and (max-width: 1044px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1048px)  {
+  .main-banner{
+    flex-direction: column;
+    height: auto;    
+}
+
+  .logo-section{
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+
+  .main-logo{
+    width: 100%;
+    height: auto;
+  }
+
+  .main-banner h1{
+    width: 100%;
+  }
+
+  .main-banner h2{
+    width: 100%;
+    line-height:normal;
+ }
+  
+  .appoinment-btn{
+    margin-top: 0;
+   
+  }
+
+  .enqire-now-form{
+    width: 100%;
+    height: auto;
+  }
+
+  .bone-marrow-section{
+    flex-direction: column;
+  }
+
+  /* <!-- enqire now section --> */
+
+  .enqire-now-form{
+    width: 100%;
+  }
+
+  .submit-btn{
+    margin-left: 35px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .bone-marrow-section{
+    flex-direction: column;
+  }
+
+  .bone-marrow-img-section{
+    margin: 0 auto;
+  }
+
+  .doctors-section{
+    flex-direction: column;
+  }
+
+  .doctors-section-left{
+    width: auto;
+  }
+
+  .doctors-section-right{
+    width: auto;
+  }
+  
+  .marrow-types{
+    margin-top: 25px;
+  }
+
+  .testimonial-slider{
+    flex-direction: column;
+  }
+  
+  .card-1:last-child{
+    margin-left:128px
+  }
+  
+  .testimonial-slide-1{
+    width: auto;
+    margin-top: 10px;
+  }
+  .footer-container hr{
+    width: auto;
+  }
+
+  .card-1:last-child{
+    margin-left: 0;
+  }  
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .logo-section{
+    margin-left: 50px;
+    padding-top: 20px;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .main-banner{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .logo-section{
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+
+  .main-logo{
+    width: 100%;
+    height: auto;
+  }
+
+  .main-banner h1{
+    width: 100%;
+     }
+
+  .main-banner h2{
+    width: 100%;
+    line-height:normal;
+ }
+  
+  .appoinment-btn{
+    margin-top: 0;
+  }
+    .bone-marrow-section{
+      flex-direction: column;
+    }
+  
+    .bone-marrow-img-section{
+      margin: 0 auto;
+    }
+  
+    .doctors-section{
+      flex-direction: column;
+    }
+  
+    .doctors-section-left{
+      width: auto;
+    }
+  
+    .doctors-section-right{
+      width: auto;
+    }
+    
+    .marrow-types{
+      margin-top: 25px;
+    }
+  
+    .testimonial-slider{
+      flex-direction: column;
+    }
+    
+    .testimonial-slide-1{
+      width: auto;
+      margin-top: 10px;
+    }
+    .footer-container hr{
+      width: auto;
+    }     
+
+
+  .enqire-now-form{
+    width: 100%;
+  }
+
+  .submit-btn{
+    margin-left: 35px;
+    width: 90%;
+    text-align: center;
+  }
+
+
+  .bone-marrow-section{
+    flex-direction: column;
+  }
+
+  .bone-marrow-img-section{
+    margin: 0 auto;
+  }
+
+  .doctors-section{
+    flex-direction: column;
+  }
+
+  .doctors-section-left{
+    width: auto;
+  }
+
+  .doctors-section-right{
+    width: auto;
+  }
+  
+  .marrow-types{
+    margin-top: 25px;
+  }
+
+  .testimonial-slider{
+    flex-direction: column;
+  }
+  .testimonial-slide-1{
+    width: auto;
+    margin-top: 10px;
+  }
+  .footer-container hr{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 674px) {
+  .page-width{
+    width: auto;
+  }
+  .testimonial-main-text{
+    width: auto;
+  }
+
+  .card-1:last-child{
+    margin-left: 122px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .page-width{
+    width: auto;
+  } 
+
+  .card-1{
+    width: auto;
+  }
+
+  .card-1:last-child{
+    margin-left: auto;
+  }
+  .bone-marrow-textarea{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .card-1:last-child {
+    margin-left: 193px;
+}
+
+.bone-marrow-textarea{
+  margin-left: 0;
+}
+}
+
+@media screen and (max-width: 605px) {
+  .bone-marrow-radial{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  .bone-marrow-radial{
+    width: auto;
+  }
+
+  .bone-marrow-radial-text{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .bone-marrow-radial{
+    width: auto;
+  }
+
+  .bone-marrow-radial-text{
+    width: auto;
+  }
+
+  .card-1:last-child{
+    margin-left: 25px;
+  }
+}
+
